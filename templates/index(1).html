@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style(1).css"
+          type="text/css">
+
+    <title>Live Streaming Demonstration</title>
+    
+</head>
+<body>
+    <header>
+      
+        <h1 style="text-align: center;">E'ktaktos</h1>
+        <br>
+
+               <h2 style="text-align: center;">XenIoT 2.0 Hackathon</h2>
+                   <h3 style="text-align: center;" class="mt-5">Live Streaming</h3>
+                   <br>
+                    
+<div class="container">
+    <div class="row">
+        <div class="frame">
+            <img src="{{ url_for('video_feed') }}"height = "60%" width="60%">
+           
+        </div>
+    </div>
+</div>
+</header>
+</body>
+</html>
